@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiMedia Story team C3</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<div class="modal-wrapper">
+  <div class="modal">
+        <div class="popup_head">
+        <a class="btn-close video_trigger" href="javascript:;"></a>
+        </div>
+        <div class="content">
+            <!-- done -->
+            <iframe src="https://player.vimeo.com/video/504339598" width="1152px" height="648px" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+<div class="top_bar" id="top_bar">
+    <div class="backtohome">
+        <a href="hub.html"><img src="img/arrow-left.svg" alt="arrow to left">Plakbord</a>
+    </div>
+    <div class="navigation">
+        <div class="navigation_item">
+            <a href="afval.html"><img src="img/afval.png" name="afval"></a>
+            <h5 class="navigation_title">Afval</h5>
+        </div>
+        <div  class="navigation_item">
+            <a href="co2.html"><img src="img/co2.png"></a>
+            <h5 class="navigation_title">CO2</h5>
+        </div>
+        <div  class="navigation_item">
+            <a href="kinderarbeid.html"><img src="img/naaimachine.png"></a>
+            <h5 class="navigation_title">Kinderarbeid</h5>
+        </div>
+        <div  class="navigation_item">
+            <a href="plastic.html"><img src="img/blouse.png"></a>
+            <h5 class="navigation_title">Plastic</h5>
+        </div>
+        <div  class="navigation_item">
+            <a href="ontbossing.html"><img src="img/ontbossing.png"></a>
+            <h5 class="navigation_title">Ontbossing</h5>
+        </div>
+        <div  class="navigation_item">
+            <a href="water.html"><img src="img/jeans.png"></a>
+            <h5 class="navigation_title">Water</h5>
+        </div>
+    </div>
+</div>
+
+
+<section class="header top_section">
+<section class="header top_section">
+    <div class="header_content">
+        <div class="header_text">
+            <h1><span class="heading_highlight">Waterverbruik</span></h1>
+            <p class="regular_text">Eén op de acht wereldbewoners heeft geen toegang tot schoon drinkwater. Wat veel mensen niet weten, is dat water ook onlosmakelijk met de kledingindustrie is verbonden.</p>
+        </div>
+        <div class="header_cta">
+            <img src="img/fleur-preview.jpg" alt="polaroid of fleur">
+            <a href="#" class="ripple-block video_trigger">
+                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                <div class="ripple ripple-1"></div>
+                <div class="ripple ripple-2"></div>
+                <div class="ripple ripple-3"></div>
+            </a>
+            <p class="handwritten_black" id="header_cta_text">Bekijk de video of scroll verder!</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="full_width">
+    <div class="top_asym">
+        <div class="asym_text inline_block">
+            <p class="regular_text text_column space_bottom">Na de landbouwsector verbruikt de kledingsector het meeste water. Het gaat om jaarlijks ruim <span class="text_highlight">drie procent</span> van al het water wat op de wereld beschikbaar is.</p>
+            <p class="regular_text text_column space_bottom">Het hoge waterverbruik heeft sterk te maken met de populariteit van katoen. Het besproeien van katoenvelden veroorzaakt verzilting van de grond, waardoor akkers ongeschikt raken voor landbouw en droogt omringend land op.</p>
+        </div>
+        <img class="inline_block" id="waterTopImg" src="img/rollen-textiel.png" alt="image of textile rolls">
+        <img class="inline_block" id="waterSecondImg" src="img/Droogte.png" alt="image of cracked earth soil">
+        </div>
+    </div>
+</section>
+
+
+<div id="calculator_section">
+    <div class="calc_asym">
+        <img src="img/pesticiden.png" alt="photo of a man spraying the cotton plants">
+        <img src="img/aralmeer-note.png" alt="handwritten notition">
+    </div>
+    <div class="calculator_container">
+    <div>
+        <h3 class="medium_title">Hoeveel water heb je aan vandaag?</h3>
+
+        <div id="checkboxHolder">
+            <div class="checkbox"><input type="checkbox" value="8000"><label for="checkbox">Denim</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="2000"><label for="checkbox">Katoen</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="700"><label for="checkbox">Viscose</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="10"><label for="checkbox">Fleece</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="10"><label for="checkbox">Polyester</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="3780"><label for="checkbox">Linnen</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="3470"><label for="checkbox">Wollen</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="10"><label for="checkbox">Acryl</label></input><br></div>
+            <div class="checkbox"><input type="checkbox" value="10"><label for="checkbox">Nylon</label></input><br></div>
+        </div>
+
+
+        <button id="waterButton">Reken uit</button>
+
+        <div id="waterText">
+            <h4><span id="waterAmount">...</span> liter water</h4>
+            <h5>Dat is <span id="yearAmount"></span> jaar aan drinkwater voor een persoon.</h5>
+        </div>
+
+
+
+    </div>
+</div>
+</div>
+
+
+<section class="full_width">
+
+    <div class="timelapse">
+        <h2 id="timelapse_title"><span>Het Aralmeer droogde in 30 jaar bijna volledig op.</span><br><span>Het was ooit het 4e grootste meer van de wereld.</span><br><span>Tegenwoordig bijna alleen nog woestijn.</span><br><span>Lees hieronder waarom.</span></h2>
+        <video src="video/timelapse.mp4"></video>    
+    </div>
+   
+
+</section>
+
+
+<section class="full_width">
+
+    <div class="text_img_flex double_flex">
+        <div>
+            <p class="regular_text text_column space_bottom"><span class="text_highlight">Bijna de helft</span> van de afvalwaterproblemen in de wereld heeft te maken met de productie van textiel. Op katoenvelden worden zware toxische chemicaliën, zoals insecticiden en pesticiden, gebruikt. Dit treft naast de landbouwsector ook het drinkwater van lokale bevolkingsgroepen.</p>
+            <p class="regular_text text_column">De stoffen die textielfabrieken gebruiken komen terecht in rivieren - en uiteindelijk <span class="text_highlight">ook in drinkwater.</span></p>
+       </div>
+       <div>
+            <p class="regular_text text_column space_bottom">Het gaat hier om het het gebruik van chloorbleek, chemische verfstoffen en finishings bij het verwerken van de vezels en het maken van de kledingstukken. </p>
+            <img src="img/blauw-water.png" alt="image of water poluted by jeans production">
+        </div>
+    </div>
+    <img id="kinderhandenImg" src="img/handen.png" alt="child's hands destroyed by hard work">
+    <img id="watkanikdoen_water" src="img/watkanikdoen-water.png" alt="note to self">
+    
+</section>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+const timelapse = document.querySelector('.timelapse')
+  const video = timelapse.querySelector('video')
+  const text = timelapse.querySelector('h2')
+
+  const controller = new ScrollMagic.Controller();
+
+    //Scenes
+    let scene = new ScrollMagic.Scene({
+      duration: 6000,
+      triggerElement: timelapse,
+      triggerHook: 0
+    })
+      .setPin(timelapse)
+      .addTo(controller);
+
+    //Text Animation
+    const textAnim = TweenMax.fromTo(text, 3, { opacity: 1 }, { opacity: 0 });
+
+    let scene2 = new ScrollMagic.Scene({
+      duration: 6000,
+      triggerElement: timelapse,
+      triggerHook: 0
+    })
+      .setTween(textAnim)
+      .addTo(controller);
+
+    //Video Animation
+    let accelamount = 0.5;
+    let scrollpos = 0;
+    let delay = 0;
+
+    scene.on("update", e => {
+      scrollpos = e.scrollPos / 1000;
+    });
+
+    setInterval(() => {
+      delay += (scrollpos - delay) * accelamount;
+      video.currentTime = delay;
+    }, 100);
+</script>
+
+</body>
+</html>
