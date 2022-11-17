@@ -1,0 +1,770 @@
+body{
+    background-color: #3BDBC2;
+}
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.small-block{
+    position: absolute;
+    left: 53%;
+    background-color: #3884F7;
+    text-align: center;
+    padding: 15px 0px;
+    width: 201.6px;
+    box-shadow: 5px 5px #06AC92;
+}
+.small-block.sorteren{
+    width: 300px;
+}
+
+/* Typo */
+p{
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    color: white;
+}
+h1{
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    text-shadow: 5px 5px #06AC92;
+    color: white;
+}
+h1.top-text{
+    font-size: 8em;
+    position: absolute;
+    left: 20%;
+    top: 5px;
+    color: white;
+}
+h2{
+    font-family: 'futura-pt-bold', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+}
+h3{
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.2em;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+h4{
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    color: #3884F7;
+}
+h5{
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    color: white;
+}
+
+
+/* Homescreen */
+.home-container{
+    position: relative;
+}
+img.logo{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 255px;
+    left: 720px;
+    width: 300px;
+}
+img.home{
+    width: 1440px;
+    height: 707px;
+}
+p.home{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 475px;
+    left: 720px;
+    width: 430px;
+    text-align: center;
+    font-size: 1.15em;
+}
+img.scroll{
+    position: absolute;
+    height: 45px;
+    top: 581.38px;
+    transform: translateX(-50%);
+    left: 720px;
+}
+p.scroll{
+    position: absolute;
+    font-size: 0.6em;
+    transform: translateX(-50%);
+    top: 633px;
+    left: 720px;
+}
+
+/* Welkom */
+.welcome-container{
+    position: relative;
+}
+img.background{
+    margin-top: -3px;
+    width: 1440px;
+    position: relative;
+}
+video{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    outline: none !important;
+}
+
+/* Maak je keuze */
+.keuze-container{
+    position: relative;
+}
+img.garment{
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    height: 450px;
+    border-radius: 58px;
+    box-shadow: 3px 3px 5px black;
+}
+h1.keuze{
+    position: absolute;
+    left: 52.7%;
+    top: 24%;
+    color: white;
+}
+h2.keuze{
+    position: absolute;
+    top: 36%;
+    left: 53%;
+}
+.block-A{
+    top: 43%;
+}
+.block-A:hover{
+    background-color: white;
+}
+.block-A:hover > h2{
+    color: #32c0ab;
+} 
+.block-B{
+    top: 56%;
+}
+.block-B:hover{
+    background-color: white;
+}
+.block-B:hover > h2{
+    color: #32c0ab;
+} 
+.block-C{
+    top: 69%;
+}
+.block-C:hover{
+    background-color: white;
+}
+.block-C:hover > h2{
+    color: #32c0ab;
+} 
+
+/* Keuze 2 */
+.keuze-circle-left{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 25%;
+    left: 15%;
+    background-color: white;
+    border-radius: 50%;
+}
+.keuze-circle-left:hover{
+    background-color: #3884F7;
+}
+img.keuze-img-left{
+    position: absolute;
+    width: 230px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.keuze-circle-right{
+    position: absolute;
+    top: 25%;
+    width: 320px;
+    height: 320px;
+    right: 15%;
+    background-color: white;
+    border-radius: 50%;
+}
+.keuze-circle-right:hover{
+    background-color: #3884F7;
+}
+img.keuze-img-right{
+    position: absolute;
+    top: 50%;
+    width: 230px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+h1.keuze2{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 3.5%;
+    color: white;
+}
+h2.keuze2{
+    position: absolute;
+    top: 15.5%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.keuze2-block{
+    position: absolute;
+    width: 200px;
+    top: 518.4px;
+}
+.left-choice{
+    position: absolute;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+    width: 320px;
+    top: 70%;
+    left: 15%;
+    color: white;
+}
+.right-choice{
+    position: absolute;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+    width: 320px;
+    top: 70%;
+    right: 15%;
+    color: white;
+}
+h2.right-choice.small{
+    right: 15.4%;
+    width: 300px;
+}
+
+/* doneren */
+.doneren-container{
+    position: relative;
+    /* height: 709px; */
+}
+h1.doneren{
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+/* doneren2 */
+.doelen-wrapper{
+    position: absolute;
+    width: 1008px;
+    height: 645.19px;
+    transform: translate(-50%, -50%);
+    top: 47%;
+    left: 50%;
+}
+.doneren2-wrapper{
+    position: absolute;
+    width: 201.6px;
+    top: 16%;
+}
+.doneren2-img{
+    position: absolute;
+    width: 201.6px;
+}
+.doneren2-left-wrapper{
+    transform: translateY(-50%);
+    left: 15%;
+}
+.doneren2-mid-wrapper{
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.doneren2-right-wrapper{
+    transform: translateY(-50%);
+    right: 15%;
+}
+.doneren2-overlay{
+    position: absolute;
+    background-color: white;
+    width: 201.6px;
+    height: 414.72px;
+    border-radius: 16px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px black;
+}
+p.doneren2-vraag{
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    position: absolute;
+    top: 42.54px;
+    transform: translateX(-50%);
+    left: 50%;
+    color: #3884F7;
+    
+}
+img.doneren2-logo{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 37px;
+    width: 60%;
+}
+#ldh{
+    width: 30%;
+}
+#dfs{
+    top: 24px;
+    width: 45%;
+}
+iframe{
+    position: absolute;
+    top: 122px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+p.doneren2{
+    position: absolute;
+    font-size: 0.75em;
+    width: 90%;
+    top: 240px;
+    transform: translateX(-50%);
+    left: 50%;
+    color: #0C0C49;
+}
+.doneren2-checkbox{
+    position: absolute;
+    top: 364px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #3884F7;
+    border-radius: 50px;
+}
+button.doneren2-bevestig{
+    position: absolute;
+    background-color: #3884F7;
+    top: 570px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    color: white;
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+}
+.doneren2-left-wrapper:hover .doneren2-overlay{
+    background-color: #1fe2c5;
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+    height: 473px;
+}
+.doneren2-left-wrapper:hover .doneren2-img{
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+}
+.doneren2-mid-wrapper:hover .doneren2-overlay{
+    background-color: #1fe2c5;
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+    height: 473px;
+}
+.doneren2-mid-wrapper:hover .doneren2-img{
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+}
+.doneren2-right-wrapper:hover .doneren2-overlay{
+    background-color: #1fe2c5;
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+    height: 473px;
+}
+.doneren2-right-wrapper:hover .doneren2-img{
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+}
+img.checkedbox{
+    position: absolute;
+    top: 358px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 57px;
+    height: 57px;
+}
+.checked-img{
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+}
+.checked-background{
+    background-color: #1fe2c5;
+    transform: translate(-6%, -6%);
+    width: 230.4px;
+    height: 473px;
+}
+h1.large{
+    transform: translateX(-50%);
+    left: 50%;
+    width: 845px;
+}
+
+/* Weggooien */
+h2.weggooien{
+    width: 247px;
+}
+
+/* Textielcontainer */
+h1.top-text.textiel{
+    font-size: 6em;
+    top: 25%;
+    left: 3%;
+}
+h1.meer-info{
+    text-shadow: none;
+    position: absolute;
+    font-size: 2em;
+    line-height: 1.2em;
+    width: 25%;
+    top: 41%;
+    left: 4%;
+}
+img.textiel{
+    position: absolute;
+    height: 380px;
+    top: 25%;
+    transform: translateX(-50%);
+    left: 71.3%;
+    border-radius: 65px;
+    box-shadow: 3px 3px 5px black;
+}
+button.textiel-info{
+    position: absolute;
+    padding: 5px 0px;
+    font-family: 'futura-pt-bold', sans-serif;
+    color: white;
+    font-size: 1.7em;
+    top: 55%;
+    left: 4%;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+.popup{
+    position: fixed;
+    top: 5vh;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 50vw;
+    height: 90vh;
+    background-color: #06AC92;
+    opacity: 0;
+    z-index: 99;
+    pointer-events: none;
+}
+img.close-popup{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 2vw;
+}
+h5.popup-h5{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 13%;
+    font-size: 3.5vw;
+}
+.popup-video{
+    top: 26%;
+}
+p.popup-p{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 68%;
+    width: 60%;
+    font-size: 1vw;
+}
+h1.proces{
+    transform: translateX(-50%);
+    left: 56.6%;
+}
+h1.nieuwe-eigenaar{
+    width: 1100px;
+}
+h1.gerecycled{
+    width: 1060px;
+}
+h1.verbrand{
+    width: 970px;
+}
+h1.restafval{
+    width: 780px;
+}
+h1.bespaard{
+    top: 1.2%;
+    width: 575px;
+}
+img.bespaard-left{
+    position: absolute;
+    width: 270px;
+    left: 21.8%;
+}
+h2.bespaard-left{
+    position: absolute;
+    left: 21.8%;
+    font-size: 3.5em;
+}
+p.bespaard-left{
+    position: absolute;
+    left: 21.8%;
+    font-size: 1.5em;
+    width: 380px;
+}
+img.bespaard-right{
+    position: absolute;
+    width: 270px;
+    right: 21.1%;
+}
+h2.bespaard-right{
+    position: absolute;
+    left: 55.4%;
+    font-size: 3.5em;
+}
+p.bespaard-right{
+    position: absolute;
+    right: 18%;
+    font-size: 1.5em;
+    width: 380px;
+}
+.pakket{
+    top: 9.5%;
+}
+p.pakket{
+    top: 12%;
+}
+.vrachtwagen{
+    top: 23.1%;
+}
+p.vrachtwagen{
+    top: 25.6%;
+}
+.pakketcentrum{
+    top: 36.8%;
+}
+p.pakketcentrum{
+    top: 39.3%;
+}
+.vliegtuig{
+    top: 49.1%;
+}
+p.vliegtuig{
+    top: 51.6%;
+}
+.druppel{
+    top: 63.3%;
+}
+p.druppel{
+    top: 65.8%;
+}
+.fabriek{
+    top: 76.2%;
+}
+p.fabriek{
+    top: 78.7%;
+}
+img.happy-world{
+    position: absolute;
+    width: 500px;
+    top: 86.4%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+h1.eindkeuze{
+    text-shadow: none;
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 1.4em;
+    width: 900px;
+    top: 34%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.eindkeuze-left{
+    top: 80%;
+    left: 20%;
+}
+.eindkeuze-right{
+    top: 80%;
+    left: 66%;
+}
+p.end{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 550px;
+    left: 720px;
+    width: 400px;
+    text-align: center;
+    font-size: 0.9em;
+}
+button.gevolg-doneren{
+    position: absolute;
+    background-color: white;
+    top: 700px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    color: #3884F7;
+    font-family: 'futura-pt-bold', sans-serif;
+    font-weight: 700;
+}
+button.gevolg-doneren:hover{
+    background-color: #3884F7;
+    color: white;
+}
+button.bespaard-button{
+    top: 95%;
+}
+.checked-left, .checked-mid, .checked-right{
+    opacity: 0;
+}
+h1.end-text{
+    top: 3%;
+    left: 38%;
+}
+h2.bespaard-uitleg{
+    position: absolute;
+    top: 5.3%;
+    transform: translateX(-50%);
+    width: 500px;
+    text-align: center;
+    left: 50%;
+}
+.telefoon-melding{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3BDBC2;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+}
+h1.telefoon{
+    position: fixed;
+    font-size: 3em;
+    line-height: 1.5em;
+    width: 90vw;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
+video.kledingkast{
+    top: 55%;
+}
+h1.kledingkast{
+    top: 50px;
+}
+img.sorteer-garment{
+    top: 25.7%;
+    left: 18.8%;
+    height: 380px;
+}
+span.blue{
+    color: #3884F7;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media all and (max-width: 600px) {
+    main{
+        display: none;
+    }
+    .telefoon-melding{
+        opacity: 1;
+    }
+    h1.telefoon{
+        font-size: 8vw;
+        line-height: 1.5em;
+        width: 90vw;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+    }
+    #viewportsize{
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        color: white;
+        font-size: 1.4em;
+        font-family: 'futura-pt', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 2px #06AC92;
+        width: 90vw;
+        text-align: center;
+        top: 85vh;
+    }
+}
+@media all and (min-width: 600px) and (max-width: 1439px) {
+    main{
+        display: none;
+    }
+    .telefoon-melding{
+        opacity: 1;
+    }
+    h1.telefoon{
+        opacity: 1;
+    }
+    #viewportsize{
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        color: white;
+        font-size: 2em;
+        font-family: 'futura-pt', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 2px #06AC92;
+        width: 90vw;
+        text-align: center;
+        top: 85vh;
+    }
+}
